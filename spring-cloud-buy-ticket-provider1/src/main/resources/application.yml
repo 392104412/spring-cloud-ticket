@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: buy-ticket
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://yp:123@localhost:1111/eureka,http://yp:123@localhost:1112/eureka
+server:
+  port: 8081
+

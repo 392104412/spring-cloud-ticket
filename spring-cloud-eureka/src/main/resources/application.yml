@@ -1,0 +1,14 @@
+security:
+  basic:
+    enabled: true
+  user:
+    name: yp
+    password: 123
+server:
+  port: 1111
+eureka:
+  client:
+#    register-with-eureka: false
+#    fetch-registry: false
+    serviceUrl:
+      defaultZone: http://yp:123@localhost:1112/eureka
